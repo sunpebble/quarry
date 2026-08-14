@@ -11,29 +11,29 @@ neverBuiltDependencies: []
 catalogs:
   default:
     # React
-    react: ^19.2.7
-    react-dom: ^19.2.7
-    '@types/react': ^19.2.17
+    react: ^19.2.8
+    react-dom: ^19.2.8
+    '@types/react': ^19.2.18
     '@types/react-dom': ^19.2.3
     # 开发工具
-    typescript: ^6.0.3
-    eslint: ^10.4.1
-    prettier: ^3.9.4
-    vite: ^8.1.3
+    typescript: ^7.0.2
+    eslint: ^10.8.1
+    prettier: ^3.9.6
+    vite: ^8.2.1
     vitest: ^4.1.10
-    tsx: ^4.22.4
+    tsx: ^4.23.12
     husky: ^9.1.7
-    lint-staged: ^17.0.7
+    lint-staged: ^17.3.0
     '@vitejs/plugin-react': ^6.0.3
 
     # ESLint
-    '@antfu/eslint-config': ^9.0.0
-    '@commitlint/cli': ^21.0.2
+    '@antfu/eslint-config': ^9.3.0
+    '@commitlint/cli': ^21.2.1
     '@commitlint/config-conventional': ^21.0.2
-    '@eslint-react/eslint-plugin': ^5.11.2
+    '@eslint-react/eslint-plugin': ^5.18.3
     eslint-plugin-react-hooks: ^7.1.1
-    eslint-plugin-react-refresh: ^0.5.2
-    prettier-plugin-tailwindcss: ^0.8.0
+    eslint-plugin-react-refresh: ^0.5.4
+    prettier-plugin-tailwindcss: ^0.8.1
 
     # Tailwind
     tailwindcss: ^4.3.0
@@ -56,7 +56,7 @@ catalogs:
     react-resizable-panels: ^4.11.2
     recharts: ^3.8.1
     react-colorful: ^5.7.0
-    framer-motion: ^12.40.0
+    framer-motion: ^13.1.0
     next-themes: ^0.4.6
     shadcn: ^4.11.0
     '@radix-ui/react-label': ^2.1.9
@@ -68,7 +68,7 @@ catalogs:
     '@tanstack/react-db': ^0.1.86
     '@tanstack/react-query': ^5.101.0
     '@tanstack/react-router': ^1.170.15
-    '@tanstack/react-table': ^8.21.3
+    '@tanstack/react-table': ^9.1.2
     '@tanstack/react-virtual': ^3.14.2
 
     # DnD Kit
@@ -78,7 +78,7 @@ catalogs:
     '@dnd-kit/utilities': ^3.2.2
 
     # 数据库
-    better-sqlite3-multiple-ciphers: ^12.10.0
+    better-sqlite3-multiple-ciphers: ^13.0.3
     '@libsql/client': ^0.17.3
     mysql2: ^3.22.5
     mongodb: ^7.3.0
@@ -88,7 +88,7 @@ catalogs:
 
     # Monaco
     '@monaco-editor/react': ^4.7.0
-    monaco-editor: ^0.55.1
+    monaco-editor: ^0.56.0
     monaco-vim: ^0.4.4
 
     # i18n
@@ -97,11 +97,11 @@ catalogs:
     react-i18next: ^17.0.8
 
     # 测试
-    '@testing-library/jest-dom': ^6.9.1
+    '@testing-library/jest-dom': ^7.0.1
     '@testing-library/react': ^16.3.2
     '@testing-library/user-event': ^14.6.1
     '@vitest/coverage-v8': ^4.1.10
-    happy-dom: ^20.10.2
+    happy-dom: ^20.11.2
     playwright: ^1.60.0
 
     # 表单 & 校验
@@ -111,17 +111,17 @@ catalogs:
     ajv: ^8.20.0
 
     # Cloudflare
-    hono: ^4.12.28
-    wrangler: ^4.99.0
-    '@cloudflare/workers-types': ^5.20260707.1
-    stripe: ^22.2.0
-    nanoid: ^5.1.16
-    resend: ^6.12.4
+    hono: ^4.13.1
+    wrangler: ^4.120.1
+    '@cloudflare/workers-types': ^5.20260811.1
+    stripe: ^22.5.0
+    nanoid: ^6.0.1
+    resend: ^6.19.0
 
     # Remotion
-    '@remotion/cli': ^4.0.485
-    '@remotion/transitions': ^4.0.485
-    remotion: ^4.0.485
+    '@remotion/cli': ^4.0.507
+    '@remotion/transitions': ^4.0.507
+    remotion: ^4.0.507
 
     # 图表 & 可视化
     '@xyflow/react': ^12.11.0
@@ -148,22 +148,22 @@ catalogs:
     '@ffprobe-installer/ffprobe': ^2.1.2
 
     # Types
-    '@types/better-sqlite3': ^7.6.13
+    '@types/better-sqlite3': ^9.6.0
     '@types/dagre': ^0.7.54
     '@types/exceljs': ^1.3.2
     '@types/express': ^5.0.6
     '@types/mssql': ^12.3.0
-    '@types/node': ^25.9.3
+    '@types/node': ^26.2.0
     '@types/papaparse': ^5.5.2
     '@types/pg': ^8.20.0
     '@types/react-resizable': ^4.0.0
     '@types/ssh2': ^1.15.5
 
     # Docs
-    vitepress: 2.0.0-alpha.18
+    vitepress: 2.0.0-alpha.19
 
     # 其他
-    '@typescript/native-preview': 7.0.0-dev.20260706.1
+    '@typescript/native-preview': 7.0.0-dev.20260707.2
 
 overrides:
   dompurify: 3.4.11
