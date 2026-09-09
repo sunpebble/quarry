@@ -139,7 +139,7 @@ catalogs:
     react-resizable: ^4.0.1
     readable-stream: ^4.7.0
     remark-gfm: ^4.0.1
-    sharp: ^0.35.3
+    sharp: ^0.35.4
     ssh2: ^1.17.0
     use-stick-to-bottom: ^1.1.6
     zustand: ^5.0.14
